@@ -6,21 +6,21 @@ export const tabs = [
         label: 'Home',
         dest: '/',
     },
-    {
-        icon: 'local_fire_department',
-        label: 'Matchups',
-        dest: '/matchups',
-    },
+//     {
+//         icon: 'local_fire_department',
+//         label: 'Matchups',
+//         dest: '/matchups',
+//     },
     {
         icon: 'swap_horiz',
         label: 'Trades & Waivers',
         dest: '/transactions',
     },
-    {
-        icon: 'article',
-        label: 'Blog',
-        dest: '/blog',
-    },
+//     {
+//         icon: 'article',
+//         label: 'Blog',
+//         dest: '/blog',
+//     },
     {
         icon: 'view_comfy',
         label: 'League Info',
@@ -31,11 +31,11 @@ export const tabs = [
                 label: 'Rosters',
                 dest: '/rosters',
             },
-            {
-                icon: 'groups',
-                label: 'Managers',
-                dest: '/managers',
-            },
+//             {
+//                 icon: 'groups',
+//                 label: 'Managers',
+//                 dest: '/managers',
+//             },
             {
                 icon: 'leaderboard',
                 label: 'Standings',
@@ -46,21 +46,21 @@ export const tabs = [
                 label: 'Drafts',
                 dest: '/drafts',
             },
-            {
-                icon: 'emoji_events',
-                label: 'Trophy Room',
-                dest: '/awards',
-            },
-            {
-                icon: 'military_tech',
-                label: 'Records',
-                dest: '/records',
-            },
-            {
-                icon: 'history_edu',
-                label: 'Constitution',
-                dest: '/constitution',
-            },
+//             {
+//                 icon: 'emoji_events',
+//                 label: 'Trophy Room',
+//                 dest: '/awards',
+//             },
+//             {
+//                 icon: 'military_tech',
+//                 label: 'Records',
+//                 dest: '/records',
+//             },
+//             {
+//                 icon: 'history_edu',
+//                 label: 'Constitution',
+//                 dest: '/constitution',
+//             },
             {
                 icon: 'sports_football',
                 label: 'Go to Sleeper',
