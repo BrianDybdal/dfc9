@@ -79,9 +79,9 @@
                     <Label>Regular Season</Label>
                 </Button>
                 <!-- Championship Bracket -->
-                <Button class="selectionButtons" on:click={() => changeSelection('champions')} variant="{selection == 'champions' || selection == 'losers' ? "raised" : "outlined"}">
+                <!--<Button class="selectionButtons" on:click={() => changeSelection('champions')} variant="{selection == 'champions' || selection == 'losers' ? "raised" : "outlined"}">
                     <Label>Playoffs</Label>
-                </Button>
+                </Button>-->
             </Group>
             {#if selection == 'champions' || selection == 'losers'}
                 <Group variant="outlined">
