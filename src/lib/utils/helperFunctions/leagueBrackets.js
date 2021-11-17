@@ -29,6 +29,8 @@ export const getBrackets = async () => {
         fetch(`https://api.sleeper.app/v1/league/${leagueID}/losers_bracket`, {compress: true}),
     ]
 
+    // Hardcoding playoff start week to 18, because sleeper leagueData.settings.playoff_week_start = 0 when playoff are disabled.
+    leagueData.settings.playoff_week_start = 18;
     const playoffsStart = leagueData.settings.playoff_week_start;
 
     // add each week after the regular season to the fetch array

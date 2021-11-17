@@ -18,6 +18,8 @@ export const getLeagueStandings = async () => {
 	).catch((err) => { console.error(err); });
 
 	const yearData = leagueData.season;
+	// Hardcoding playoff start week to 18, because sleeper leagueData.settings.playoff_week_start = 0 when playoff are disabled.
+	leagueData.settings.playoff_week_start = 18;
 	const regularSeasonLength = leagueData.settings.playoff_week_start - 1;
 
 	// if the season hasn't started, standings can't be created

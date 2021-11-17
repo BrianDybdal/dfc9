@@ -26,6 +26,8 @@ export const getLeagueMatchups = async () => {
 		week = 18;
 	}
 	const year = leagueData.season;
+	// Hardcoding playoff start week to 18, because sleeper leagueData.settings.playoff_week_start = 0 when playoff are disabled.
+	leagueData.settings.playoff_week_start = 18;
 	const regularSeasonLength = leagueData.settings.playoff_week_start - 1;
 
 	const rosters = rosterRes.rosters;

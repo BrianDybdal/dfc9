@@ -16,7 +16,9 @@ export async function get() {
         playoffsRes.json(),
     )
 
-	let year = nflState.league_season;
+    let year = nflState.league_season;
+    // Hardcoding playoff start week to 18, because sleeper leagueData.settings.playoff_week_start = 0 when playoff are disabled.
+    leagueData.settings.playoff_week_start = 18;
     const regularSeasonLength = leagueData.settings.playoff_week_start - 1;
     const playoffLength = playoffs.pop().r;
     const fullSeasonLength = regularSeasonLength + playoffLength;

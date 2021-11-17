@@ -55,6 +55,9 @@ export const getLeagueRecords = async (refresh = false) => {
 	
 		let year = parseInt(leagueData.season);
 
+		// Hardcoding playoff start week to 18, because sleeper leagueData.settings.playoff_week_start = 0 when playoff are disabled.
+		leagueData.settings.playoff_week_start = 18;
+
 		// on first run, week is provided above from nflState,
 		// after that get the final week of regular season from leagueData
 		if(leagueData.status == 'complete' || week > leagueData.settings.playoff_week_start - 1) {
