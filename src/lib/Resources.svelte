@@ -32,6 +32,13 @@ import { dynasty } from './utils/helper';
             premium: false,
             separator: true,
         },
+        {
+            name: "Brian Dybdal Photography",
+            url: "https://briandybdal.dk/",
+            icon: "calculate",
+            premium: false,
+            separator: true,
+        },
 //         {
 //             name: "Dynasty League Football",
 //             url: "https://dynastyleaguefootball.com/",
