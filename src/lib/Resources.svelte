@@ -28,14 +28,14 @@ import { dynasty } from './utils/helper';
         {
             name: "Beierholm Køge",
             url: "https://www.beierholm.dk/kontor/beierholm-k%C3%B8ge",
-            icon: "calculate",
+            icon: "insights",
             premium: false,
             separator: true,
         },
         {
             name: "Brian Dybdal Photography",
             url: "https://briandybdal.dk/",
-            icon: "calculate",
+            icon: "insights",
             premium: false,
             separator: true,
         },
@@ -180,5 +180,5 @@ import { dynasty } from './utils/helper';
             {/if}
         {/each}
     </List>
-    <p class="disclaimer">*Some or all content is behind a paywall</p>
+  <!-- <p class="disclaimer">*Some or all content is behind a paywall</p> -->
 </div>
