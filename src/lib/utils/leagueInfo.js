@@ -20,54 +20,54 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 // To omit an optional field, set it's value to null
 
 export const managers = [
-      {
-      "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "*Frederik Pedersen",
-      },
-      {
-      "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Jakub Droppa",
-      },
-      {
-      "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Sebastian V. Laursen",
-      },
-      {
-      "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Bjarke Wanstrup",
-      },
-      {
-      "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Jesper Hamborg",
-      },
-      {
-      "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Mikkel Guldbjerg Jensen",
-      },
-      {
-      "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Carsten Benn",
-      },
-      {
-      "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Klaus Avnegaard Henriksen",
-      },
-      {
-      "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Lars Jedermann",
-      },
-      {
-      "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Mikkel Sundtoft",
-      },
-      {
-      "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Jonathan BL",
-      },
-      {
-      "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Anders Bank-Rasmussen",
-      },  
+//       {
+//       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//       "name": "*Frederik Pedersen",
+//       },
+//       {
+//       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//       "name": "Jakub Droppa",
+//       },
+//       {
+//       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//       "name": "Sebastian V. Laursen",
+//       },
+//       {
+//       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//       "name": "Bjarke Wanstrup",
+//       },
+//       {
+//       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//       "name": "Jesper Hamborg",
+//       },
+//       {
+//       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//       "name": "Mikkel Guldbjerg Jensen",
+//       },
+//       {
+//       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//       "name": "Carsten Benn",
+//       },
+//       {
+//       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//       "name": "Klaus Avnegaard Henriksen",
+//       },
+//       {
+//       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//       "name": "Lars Jedermann",
+//       },
+//       {
+//       "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//       "name": "Mikkel Sundtoft",
+//       },
+//       {
+//       "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//       "name": "Jonathan BL",
+//       },
+//       {
+//       "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//       "name": "Anders Bank-Rasmussen",
+//       },  
 //     {
 //       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
 //       "name": "Frederik Pedersen",
