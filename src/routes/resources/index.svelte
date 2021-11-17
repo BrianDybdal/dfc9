@@ -32,7 +32,7 @@
 
 <Resources />
 
-<hr />
+<!--<hr />
 
 {#await articlesData}
 	<div class="loading">
@@ -41,9 +41,9 @@
 		<LinearProgress indeterminate />
 	</div>
 {:then news}
-	<!-- promise was fulfilled -->
+	--><!-- promise was fulfilled --><!--
 	<News {news}/>
 {:catch error}
-	<!-- promise was rejected -->
+	--><!-- promise was rejected --><!--
 	<p>Something went wrong: {error.message}</p>
-{/await}
+{/await}-->
