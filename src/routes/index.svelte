@@ -181,7 +181,7 @@
             {/await}
         </div>
 
-        <div id="currentChamp">
+        <!--<div id="currentChamp">
             {#await podiumsData}
                 <p class="center">Retrieving awards...</p>
                 <LinearProgress indeterminate />
@@ -199,7 +199,7 @@
             {:catch error}
                 <p class="center">Something went wrong: {error.message}</p>
             {/await}
-        </div>
+        </div>-->
 
         <div class="transactions" bind:this={el} >
             <Transactions masterOffset={left} />
