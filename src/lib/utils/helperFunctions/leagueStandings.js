@@ -18,7 +18,7 @@ export const getLeagueStandings = async () => {
 	).catch((err) => { console.error(err); });
 
 	const yearData = leagueData.season;
-	const regularSeasonLength = 17; // leagueData.settings.playoff_week_start - 1;
+	const regularSeasonLength = leagueData.settings.playoff_week_start - 1;
 
 	// if the season hasn't started, standings can't be created
 	if(leagueData.status != "in_season" && leagueData.status != "complete") {
