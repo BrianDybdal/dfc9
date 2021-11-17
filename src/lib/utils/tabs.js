@@ -6,11 +6,11 @@ export const tabs = [
         label: 'Home',
         dest: '/',
     },
-//     {
-//         icon: 'local_fire_department',
-//         label: 'Matchups',
-//         dest: '/matchups',
-//     },
+    {
+        icon: 'local_fire_department',
+        label: 'Matchups',
+        dest: '/matchups',
+    },
     {
         icon: 'swap_horiz',
         label: 'Trades & Waivers',
