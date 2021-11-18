@@ -7,7 +7,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Velkommen til DFC Liga #1</p>
+  <p>Velkommen til DFC Liga #9</p>
   `;
 
 /*   STEP 3   */
